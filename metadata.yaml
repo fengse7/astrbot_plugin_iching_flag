@@ -1,7 +1,7 @@
 name: astrbot_plugin_iching_flag
-display_name: 周易Flag占卜
-description: 结合周易卦象占卜与Flag打脸监督的AstrBot群聊娱乐插件
+display_name: 雌小鬼卜卦 · 翻车Flag模拟器
+description: 🔮64卦卜卦 + 🏴Flag打脸监督，雌小鬼风格的AstrBot群聊娱乐插件
 author: fengse7
-version: 1.0.0
+version: 1.0.3
 support_platforms:
   - aiocqhttp
