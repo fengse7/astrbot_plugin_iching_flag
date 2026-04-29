@@ -1,14 +1,39 @@
-# astrbot-plugin-helloworld
+# 🔮 周易Flag占卜 - AstrBot插件
 
-AstrBot 插件模板 / A template plugin for AstrBot plugin feature
+> 一个能算卦、能监督你Flag、还能预言打脸的雌小鬼风格群聊娱乐插件 ✨
 
-> [!NOTE]
-> This repo is just a template of [AstrBot](https://github.com/AstrBotDevs/AstrBot) Plugin.
-> 
-> [AstrBot](https://github.com/AstrBotDevs/AstrBot) is an agentic assistant for both personal and group conversations. It can be deployed across dozens of mainstream instant messaging platforms, including QQ, Telegram, Feishu, DingTalk, Slack, LINE, Discord, Matrix, etc. In addition, it provides a reliable and extensible conversational AI infrastructure for individuals, developers, and teams. Whether you need a personal AI companion, an intelligent customer support agent, an automation assistant, or an enterprise knowledge base, AstrBot enables you to quickly build AI applications directly within your existing messaging workflows.
+## ✨ 功能介绍
 
-# Supports
+| 功能 | 说明 |
+|:---|:---|
+| 🎋 周易卜卦 | 完整64卦，含卦辞、解读、时运、财运、感情，每人每天限1次 |
+| 🏴 Flag监督 | 立Flag自动算卦，凶卦75%（暗改），立完就问惩罚 |
+| ⛏️ 打脸挖坟 | @某人挖出Flag公开处刑，每天限3次 |
+| 📝 自动判定 | 回复"实现了"/"失败了"自动判定，失败附带惩罚提醒 |
+| 🎪 排行榜 | 打脸名人堂 + 预言家榜单 |
+| 🎀 卦象彩蛋 | 发言概率触发，64卦专属吐槽，雌小鬼语气 |
 
-- [AstrBot Repo](https://github.com/AstrBotDevs/AstrBot)
-- [AstrBot Plugin Development Docs (Chinese)](https://docs.astrbot.app/dev/star/plugin-new.html)
-- [AstrBot Plugin Development Docs (English)](https://docs.astrbot.app/en/dev/star/plugin-new.html)
+## 🚀 安装
+
+在 AstrBot WebUI 插件市场搜索 `astrbot_plugin_iching_flag` 安装即可。
+
+或手动克隆到 `data/plugins/` 目录下。
+
+## 📖 指令列表
+
+| 指令 | 说明 |
+|:---|:---|
+| `/卜卦` `/算卦` `/来一卦` | 随机卜一卦（每日1次） |
+| `/flag 内容` | 立Flag，自动算卦 |
+| `/打脸` `/打脸 @某人` | 挖出进行中的Flag（每日3次） |
+| `实现了` / `失败了` | 回复机器人判定Flag结果 |
+| `/flag排行` | 查看失败排行 |
+| `/flag排行 成功` | 查看成功排行 |
+
+## 🎭 特色：雌小鬼风格
+
+本插件所有话术均采用雌小鬼语气——表面可爱贴心，实则阴阳怪气幸灾乐祸。卦象不吉会嘲讽你，Flag倒了会公开处刑，成功了还要嘴硬说"哼，算你厉害"。
+
+## 📄 开源协议
+
+MIT License
