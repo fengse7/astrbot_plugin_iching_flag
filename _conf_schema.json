@@ -1,0 +1,22 @@
+{
+  "callback_chance": {
+    "type": "float",
+    "default": 0.6,
+    "description": "彩蛋触发概率 (0.0-1.0)"
+  },
+  "daily_div_limit": {
+    "type": "int",
+    "default": 1,
+    "description": "每人每天算卦次数"
+  },
+  "daily_slap_limit": {
+    "type": "int",
+    "default": 3,
+    "description": "每人每天打脸次数"
+  },
+  "flag_bad_chance": {
+    "type": "float",
+    "default": 0.75,
+    "description": "立Flag抽到凶卦的概率 (0.0-1.0)"
+  }
+}
