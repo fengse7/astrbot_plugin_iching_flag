@@ -45,4 +45,4 @@ AstrBot WebUI 插件市场搜索 `astrbot_plugin_iching_flag` 安装。
 
 ## 📄 开源协议
 
-MIT License
+Apache License 2.0
